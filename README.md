@@ -1,4 +1,4 @@
-# WORK IN PROGRESS
+# Work in progress
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/authanram/laravel-dragula.svg?style=flat-square)](https://packagist.org/packages/authanram/laravel-dragula)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/authanram/laravel-dragula/run-tests?label=tests)](https://github.com/authanram/laravel-dragula/actions?query=workflow%3Arun-tests+branch%3Amain)
@@ -6,14 +6,6 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/authanram/laravel-dragula.svg?style=flat-square)](https://packagist.org/packages/authanram/laravel-dragula)
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
-
-## Support us
-
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-dragula.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/laravel-dragula)
-
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
-
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
 
 ## Installation
 
@@ -23,37 +15,16 @@ You can install the package via composer:
 composer require authanram/laravel-dragula
 ```
 
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="laravel-dragula-migrations"
-php artisan migrate
-```
-
-You can publish the config file with:
-
-```bash
-php artisan vendor:publish --tag="laravel-dragula-config"
-```
-
-This is the contents of the published config file:
-
-```php
-return [
-];
-```
-
 Optionally, you can publish the views using
 
 ```bash
-php artisan vendor:publish --tag="laravel-dragula-views"
+php artisan vendor:publish --tag="laravel-dragula"
 ```
 
 ## Usage
 
-```php
-$laravelDragula = new Authanram\LaravelDragula();
-echo $laravelDragula->echoPhrase('Hello, Authanram!');
+```html
+...
 ```
 
 ## Testing
@@ -68,11 +39,11 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Contributing
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
 ## Security Vulnerabilities
 
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
+Please review [our security policy](security/policy) on how to report security vulnerabilities.
 
 ## Credits
 
