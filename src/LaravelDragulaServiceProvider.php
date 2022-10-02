@@ -2,6 +2,7 @@
 
 namespace Authanram\LaravelDragula;
 
+use Authanram\LaravelDragula\Commands\LaravelDragulaCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
