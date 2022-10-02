@@ -2,9 +2,9 @@
 
 namespace Authanram\LaravelDragula\Tests;
 
+use Authanram\LaravelDragula\LaravelDragulaServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Authanram\LaravelDragula\LaravelDragulaServiceProvider;
 
 class TestCase extends Orchestra
 {
