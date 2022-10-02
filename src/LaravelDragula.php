@@ -1,12 +1,12 @@
-<?php /** @noinspection PhpExpressionResultUnusedInspection */
+<?php
+
+/** @noinspection PhpExpressionResultUnusedInspection */
 
 namespace Authanram\LaravelDragula;
 
 use InvalidArgumentException;
 
 $foo = 123;
-
-$foo;
 
 final class LaravelDragula implements LaravelDragulaContract
 {
