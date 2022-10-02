@@ -1,5 +1,5 @@
 @php($scripts = [
-    '/vendor/authanram/laravel-dragula/vendor/dragula/dragula.min.js',
+    '/vendor/authanram/laravel-dragula/vendor/dragula-3.7.3/dragula.min.js',
     '/vendor/authanram/laravel-dragula/laravel-dragula.mjs',
 ])
 

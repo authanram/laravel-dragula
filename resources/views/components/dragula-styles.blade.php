@@ -1,5 +1,5 @@
 @php($styles = [
-    '/vendor/authanram/laravel-dragula/vendor/dragula/dragula.min.css',
+    '/vendor/authanram/laravel-dragula/vendor/dragula-3.7.3/dragula.min.css',
 ])
 
 @foreach($styles as $src)
