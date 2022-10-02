@@ -13,6 +13,8 @@ class LaravelDragulaServiceProvider extends PackageServiceProvider
         $this->publishes([
             __DIR__.'/../dist' => public_path('vendor/authanram/laravel-dragula'),
         ], 'dragula-assets');
+
+        $this->app->singleton(LaravelDragulaContract::class, LaravelDragula::class);
     }
 
     public function configurePackage(Package $package): void

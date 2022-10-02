@@ -1,1 +1,1 @@
-(function(e){typeof define=="function"&&define.amd?define(e):e()})(function(){"use strict";console.log("laravel-dragula")});
+(function(n){typeof define=="function"&&define.amd?define(n):n()})(function(){"use strict"});
