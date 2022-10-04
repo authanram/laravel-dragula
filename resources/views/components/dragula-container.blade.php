@@ -1,10 +1,10 @@
-@props(['id' => (string) \Illuminate\Support\Str::ulid(), 'script' => null])
-
-@php(resolve(\Authanram\LaravelDragula\LaravelDragulaContract::class)->registerContainer(
-    $id,
-    $script && $script->isNotEmpty() ? $script->toHtml() : 'dragula()',
-))
+@props(['id' => (string) \Illuminate\Support\Str::ulid()])
 
 <div {{ $attributes->merge(['id' => $id]) }}>
     {{ $slot }}
 </div>
+
+@push('laravel-dragula-scripts')
+    <script>
+    </script>
+@endpush

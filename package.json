@@ -1,7 +1,9 @@
 {
     "private": true,
     "scripts": {
-        "build": "vite build",
+        "build": "npm run build:dragula && npm run build:lifecycle",
+        "build:dragula": "LIB=dragula vite build",
+        "build:lifecycle": "LIB=lifecycle vite build",
         "dev": "vite",
         "test": "vitest",
         "coverage": "vitest run --coverage"
